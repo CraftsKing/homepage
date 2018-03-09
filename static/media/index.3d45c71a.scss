@@ -1,0 +1,22 @@
+.not-found-container {
+    background-image: linear-gradient(to bottom, rgba(48, 131, 198, .8), rgba(86, 163, 214, .9));
+    min-height: 100vh;
+    padding: 40px 30px 0;
+    text-align: center;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    .btn-transparent {
+        margin-top: 40px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, .85);
+        background-color: transparent;
+    }
+}
